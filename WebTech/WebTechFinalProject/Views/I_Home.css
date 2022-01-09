@@ -1,0 +1,27 @@
+
+  .navbar {
+    background-color: lightblue;
+  }
+  .navbar ul {
+    overflow: auto;
+  }
+
+  .navbar li {
+    float: right;
+    list-style: none;
+    padding: 5px 5px;
+    margin: 10px 15px;
+
+  }
+  .navbar li a {
+    text-decoration: none;
+  }
+   h1 {
+    color: lightblue;
+    font-size: 60px;
+   }
+
+   body
+   {
+    background-color: royalblue;
+   }

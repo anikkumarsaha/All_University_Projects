@@ -1,0 +1,20 @@
+    .form
+    {
+      background-color: white;
+      margin-top: 20px;
+    }
+
+    button
+    {
+      background-color: white;
+
+    }
+    input[type=submit]
+    {
+    background-color: white;
+    }
+
+    #notification
+    {
+      color: green;
+    }

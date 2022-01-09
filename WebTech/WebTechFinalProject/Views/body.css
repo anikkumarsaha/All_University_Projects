@@ -1,0 +1,41 @@
+body
+{
+  background-color: #1D1C23;
+}
+a
+{
+  color: white;
+}
+* {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+.panel
+{
+  position: fixed;
+  top: 0;
+  background-color: #3D152E;
+  height: 160px;
+  width: 100%;
+
+}
+
+.panel h1
+{
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+.linksR a
+{
+  padding-right: 13%;
+  padding-left: 1%;
+
+}
+
+div.linksL a
+{
+  padding-left: 23%;
+}

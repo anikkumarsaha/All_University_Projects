@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Signup</title>
+</head>
+<link rel="stylesheet" href="body.css">
+<link rel="stylesheet" href="signup.css">
+
+<body>
+	<div class="signup">
+
+	<form method="post" action="../controller/signupCheck.php">
+		<fieldset>
+			<legend>Signup</legend>
+			<table>
+				<tr>
+					<td>Username:</td>
+					<td>
+						<input type="text" name="username" value="" oninput="nameValid()" id="name">
+						<p id="nError" style="color:red"> </p>
+					</td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><input type="password" name="password" value="" oninput="passValid()" id="pass">
+					<p id="nPass" style="color:red"> </p> </td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input type="email" name="email" value="" oninput="emailValid()" id="mail">
+					<p id="nMail" style="color:red"> </p> </td>
+				</tr>
+				<tr>
+					<td>Phone Number:</td>
+					<td><input type="text" name="phone" value="" oninput="phoneValid()" id="phone">
+						<p id="nPhone" style="color:red"> </p>
+					</td>
+				</tr>
+				<tr>
+					<td>Role:</td>
+					<td>
+						<input type="radio" name="role" value="Student"> Student
+						<input type="radio" name="role" value="Instructor"> Instructor
+						<input type="radio" name="role" value="Admin"> Admin
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" name="submit" value="Submit"></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</div>
+</body>
+</html>

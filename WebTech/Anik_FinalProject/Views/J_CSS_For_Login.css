@@ -1,0 +1,32 @@
+
+#username{
+width: 250%;
+padding: 12px 20px;
+border: 1px solid blue;
+margin: 14px;
+border-radius: 14px;
+font-size: 15px;
+}
+
+#password{
+width: 250%;
+padding: 12px 20px;
+border: 1px solid blue;
+margin: 14px;
+border-radius: 14px;
+font-size: 15px;
+}
+
+#submit{
+width: 10%;
+padding: 12px 20px;
+border: 1px solid blue;
+margin: 14px;
+border-radius: 14px;
+font-size: 15px;
+}
+
+div.sticky {
+  position: sticky;
+  top: 0;
+}

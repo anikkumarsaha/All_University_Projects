@@ -1,0 +1,31 @@
+
+div.panel
+{
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #3D152E;
+  height: 100px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+
+}
+.panel h1
+{
+  text-align: center;
+  color: white;
+  font-size: 80px;
+}
+
+.linksR a
+{
+  padding-right: 20%;
+  padding-left: 1%;
+
+}
+
+.linksL a
+{
+  padding-left: 20%;
+  padding-right: 5%;
+}
